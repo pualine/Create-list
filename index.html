@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Add an Item</title>
+  </head>
+  <body>
+
+    <form name="search" action="/search">
+      <input type="text" value="" placeholder="Search Product" id="searchInput">
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- different input field -->
+    <div class="field">
+      Your email please: <input type="email" id="invalid">
+    <div id="error"></div>
+    </div>
+
+    <h1 id="item">Click a list item to replace this text.</h1>
+    <button id="add">Add New Item</button>
+
+    <ul id="list">
+      <li>Add item 1</li>
+      <li>Add item 2</li>
+      <li>Add item 3</li>
+      <li>Add item 4</li>
+    </ul>
+
+    <script type="text/javascript" src="main/add.js"></script>
+  </body>
+</html>
