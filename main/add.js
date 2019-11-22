@@ -14,7 +14,7 @@ let listItems = document.getElementById("list").getElementsByTagName("li");
 for (i = 0; i < listItems.length; i++) {
   // listItems[i].innerHTML = "Please Add Item";
   listItems[i].addEventListener("click", currentItem);
-  // document.write(i);
+   // document.write(i);
 }
 
 
